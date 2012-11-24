@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="stamp" class="striped thick-border" onclick="onClickHandler()">Standard </div>
+  </body>
+  <script type="text/javascript">
+    el = document.getElementById("stamp");
+    function onClickHandler() {
+      el.style.webkitAnimation = "stamp-it 0.5s forwards"
+    }
+  </script>
+</html>
